@@ -1,0 +1,145 @@
+@font-face {
+    font-family: century-gothic;
+    src: url(SansSerifBldFLF.otf);
+}
+
+
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+    font-weight: 400 !important;
+    font-family: 'century-gothic' !important;
+}
+
+h4,
+h5,
+h6,
+.h4,
+.h5,
+.h6 {
+    font-weight: 600 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.my-6 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.wow,
+.animated {
+    animation-duration: 2s !important;
+}
+
+
+/*** Button Start ***/
+.btn.btn-primary {
+    border: 0;
+}
+
+.btn.btn-primary:hover {
+    background: var(--bs-dark) !important;
+    color: var(--bs-primary) !important;
+}
+
+.btn {
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-sm-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-md-square {
+    width: 44px;
+    height: 44px;
+}
+
+.btn-lg-square {
+    width: 56px;
+    height: 56px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-md-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+/*** Button End ***/
+
+
+
+/*** Team Start ***/
+.team-item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.team-item .team-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.team-item .team-icon .share-link {
+    opacity: 0;
+    transition: 0.9s;
+}
+
+.team-item:hover .share-link {
+    opacity: 1;
+}
+
+.team-item .team-content {
+    transition: 0.9s;
+}
+
+.team-item:hover .team-content {
+    background: var(--bs-primary) !important;
+    color: var(--bs-dark) !important;
+}
+
+.team-item .team-content h4,
+.team-item .team-content p {
+    transition: 0.5s;
+}
+
+.team-item:hover .team-content h4 {
+    color: var(--bs-dark) !important;
+}
+
+.team-item:hover .team-content p {
+    color: var(--bs-white);
+}
+
+/*** Team End ***/
+
+
+/*** Footer Start ***/
+.footer .footer-item a.text-body:hover {
+    color: var(--bs-primary) !important;
+}
+
+/*** Footer End ***/
